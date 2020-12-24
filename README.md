@@ -26,7 +26,7 @@ Termination Signal:    Illegal instruction: 4
 Termination Reason:    Namespace SIGNAL, Code 0x4
 Terminating Process:   exc handler [10980]
 
-`Thread 0 Crashed:: CrBrowserMain  Dispatch queue: com.apple.main-thread
+`Thread 0 Crashed:: CrBrowserMain  Dispatch queue: com.apple.main-thread`
 0   com.github.Electron.framework 	0x000000010e4fe6b2 v8::internal::compiler::ZoneStats::GetCurrentAllocatedBytes() const + 30625842
 1   com.github.Electron.framework 	0x000000010e4fd3fe v8::internal::compiler::ZoneStats::GetCurrentAllocatedBytes() const + 30621054
 2   com.github.Electron.framework 	0x000000010c3dd3e7 v8::internal::BackingStore::Reallocate(v8::internal::Isolate*, unsigned long) + 327
@@ -136,4 +136,4 @@ Terminating Process:   exc handler [10980]
 106 com.github.Electron.framework 	0x0000000109424412 ElectronInitializeICUandStartNode + 5916626
 107 com.github.Electron.framework 	0x0000000108e7fc08 ElectronMain + 136
 108 com.github.Electron           	0x0000000108e33edd 0x108e33000 + 3805
-109 libdyld.dylib                 	0x00007fff6d472cc9 start + 1`
+109 libdyld.dylib                 	0x00007fff6d472cc9 start + 1
