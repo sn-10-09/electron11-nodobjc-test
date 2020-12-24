@@ -18,14 +18,21 @@ The callback is done successfully when there are no arguments in the callback.
 When the callback has a argument, the app crashes with the following error 
 
 
-`Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)
-Exception Codes:       0x0000000000000001, 0x0000000000000000
-Exception Note:        EXC_CORPSE_NOTIFY
+`Exception Type:        EXC_BAD_INSTRUCTION (SIGILL)`
 
-Termination Signal:    Illegal instruction: 4
-Termination Reason:    Namespace SIGNAL, Code 0x4
-Terminating Process:   exc handler [10980]
-Thread 0 Crashed:: CrBrowserMain  Dispatch queue: com.apple.main-thread
+`Exception Codes:       0x0000000000000001, 0x0000000000000000`
+
+`Exception Note:        EXC_CORPSE_NOTIFY`
+
+
+`Termination Signal:    Illegal instruction: 4`
+
+`Termination Reason:    Namespace SIGNAL, Code 0x4`
+
+`Terminating Process:   exc handler [10980]`
+
+`Thread 0 Crashed:: CrBrowserMain  Dispatch queue: com.apple.main-thread`
+
 
 0   com.github.Electron.framework 	0x000000010e4fe6b2 v8::internal::compiler::ZoneStats::GetCurrentAllocatedBytes() const + 30625842
 
